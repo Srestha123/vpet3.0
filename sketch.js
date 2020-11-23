@@ -133,6 +133,8 @@ if(hr<12){
 if(hr>=12){
   text("LAST-FED:"+tm+"PM",10,30);
 }
+ text("don't let the food be zero",160,250);
+ 
 text(dn,100,100);
 }
 function readStock(data){
